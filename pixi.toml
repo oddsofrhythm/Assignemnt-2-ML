@@ -1,0 +1,12 @@
+[workspace]
+channels = ["conda-forge"]
+name = "Assignemnt-2-ML"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+numpy = ">=2.3.0,<3"
+pandas = ">=2.3.0,<3"
+jupyter = ">=1.1.1,<2"
